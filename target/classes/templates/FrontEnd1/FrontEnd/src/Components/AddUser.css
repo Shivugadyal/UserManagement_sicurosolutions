@@ -1,0 +1,83 @@
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to right,rgb(244, 246, 249),rgb(205, 200, 221));
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+h1 {
+  text-align: center;
+  color: black; /* Changed to match Home.jsx */
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color:rgb(0, 0, 0); /* Changed to match Home.jsx */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd; /* Changed to match Home.jsx */
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.success-message {
+  color: #28a745;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #d4edda;
+  border-radius: 4px;
+}
+
+body {
+  background: linear-gradient(135deg, rgb(0, 0, 0) 0%,rgb(1, 2, 3) 100%);
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(251, 246, 246, 0.1);
+}
